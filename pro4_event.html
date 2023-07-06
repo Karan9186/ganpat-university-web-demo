@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pro4_event.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event page</title>
+</head>
+<body>
+    
+    <div class="nav" data-aos="fade">
+        <div>
+            <img src="logo1.png" class="logo">
+        </div>
+            <ul>
+                <li class="list active">
+                    <a href="pro_4_real_login.html"><br>
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="pro4_courses.html"><br>
+                        <span class="icon">
+                            <ion-icon name="school-sharp"></ion-icon>
+                        </span>
+                        <span class="text">Courses</span>
+                    </a>
+                </li>
+    
+                <li class="list" >
+                    <a href="pro4_event.html"><br>
+                        <span class="icon">
+                            <ion-icon name="trophy-sharp"></ion-icon>
+                        </span>
+                        <span class="text">Events</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="pro4_contact.html"><br>
+                        <span class="icon">
+                            <ion-icon name="call-sharp"></ion-icon>
+                        </span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="pro4_admission.html"><br>
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">admission</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <section>
+        <div class="back_img" data-aos="fade">
+            <img src="event_back_img.jpg" width="100%" height="500px">
+            <hr size="10px" color="blue" style="margin-top:-10px">
+        </div>
+<BR><BR><BR><BR>
+    <div class="past_event_heading" data-aos="fade" >
+    <span>p</span>
+    <span>a</span>
+    <span>s</span>
+    <span>t</span>
+    <span class="dot">-</span>
+    <span>e</span>
+    <span>v</span>
+    <span>e</span>
+    <span>n</span>
+    <span>t<span>
+    </div>
+    <BR><BR> <BR><BR>
+      </section>
+
+      <section class="event_list" data-aos="fade-right">
+       
+        <div class="event1">
+            <img src="event_1.jpg">
+            <BR><BR>
+            <h2>TEACHER'S DAY SELEBRATION DISTINGUISHED LECTURE</h2>
+            <p>05 september 2020</p>
+            <BR>
+            <p>On the Occasion of Teacher’s Day Celebration</p>
+            <button class="ev_btn1">read more</button>
+            <div class="ev1" style="display: none">
+                <h2>Distinguished Speaker</h2>
+                <h3>Dr. (Mrs.) Pankaj Mittal</h3>
+                <p>Secretary General,</p>
+                <P>Association of Indian Universities (AIU), New Delhi</P>
+                <p>Date & Time</p>
+                <p>05th September, 2022 (Monday)</p>
+                <p>11:00 AM - 12.30 PM</p>
+                <p>Venue:</p>
+                <p>GUNI-VMPIM Seminar Hall,</p>
+                <p>Ganpat Vidyanagar - 384012</p>
+            </div>
+        </div>
+
+        <div class="event2">
+            <img src="event_3.jpg">
+            <BR><BR>
+            <h2>TEACHER'S DAY SELEBRATION DISTINGUISHED LECTURE</h2>
+            <p>05 september 2020</p>
+            <BR>
+            <p>On the Occasion of Teacher’s Day Celebration</p>
+            <button class="event_btn2">read more</button>
+            <div class="ev_btn2" style="display: none;">
+                <h2>Distinguished Speaker</h2>
+                <h3>Dr. (Mrs.) Pankaj Mittal</h3>
+                <p>Secretary General,</p>
+                <P>Association of Indian Universities (AIU), New Delhi</P>
+                <p>Date & Time</p>
+                <p>05th September, 2022 (Monday)</p>
+                <p>11:00 AM - 12.30 PM</p>
+                <p>Venue:</p>
+                <p>GUNI-VMPIM Seminar Hall,</p>
+                <p>Ganpat Vidyanagar - 384012</p>
+            </div>
+        </div>
+
+        <div class="event3">
+            <img src="event_4.jpg">
+            <BR><BR>
+            <h2>Intellectual Property Rights (IPR) & Patents and Designs Filing</h2>
+            <p>08 september 2020</p>
+            <BR>
+            <p>On the Occasion of Teacher’s Day Celebration</p>
+            <button class="event_btn3">read more</button>
+            <div class="ev_btn3" style="display: none;">
+                <h2>Distinguished Speaker</h2>
+                <h3>Dr. (Mrs.) Pankaj Mittal</h3>
+                <p>Secretary General,</p>
+                <P>Association of Indian Universities (AIU), New Delhi</P>
+                <p>Date & Time</p>
+                <p>05th September, 2022 (Monday)</p>
+                <p>11:00 AM - 12.30 PM</p>
+                <p>Venue:</p>
+                <p>GUNI-VMPIM Seminar Hall,</p>
+                <p>Ganpat Vidyanagar - 384012</p>
+            </div>
+        </div>
+      </section>
+      <script src="jquery-3.6.3.min.js"></script>
+
+      <script>
+        $(document).ready(function () {
+            $(".ev_btn1").click(function () {
+                    $(".ev1").fadeToggle("slow");
+                });
+
+                $(".event_btn2").click(function () {
+                    $(".ev_btn2").fadeToggle("slow");
+                });
+
+                $(".event_btn3").click(function () {
+                    $(".ev_btn3").fadeToggle("slow");
+                });
+
+                
+                });
+      </script>
+      <BR><BR> 
+        
+<br>
+<section class="footer" data-aos="zoom-in">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>university locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="pro4_courses.html">courses</a>
+            <a href="pro4_event.html">events</a>
+            <a href="pro4_contact.html">contact</a>
+            <a href="pro4_admission.html">college admission</a>
+            <a href="login_page.html">login</a>
+
+        </div>
+
+    </div>
+<div class="container_footer">
+    <h1 class="credit"> created by <span class="me"> mr. karan parmar</span> | ganpat university web demo </h1>
+</div>
+</section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+    {
+        offset: 300,
+        duration: 700,
+    }
+  );
+</script>
+</body>
+</html>

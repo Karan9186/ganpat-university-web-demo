@@ -1,0 +1,51 @@
+header{
+    background-color: rgb(37, 35, 35);
+    text-align:center;
+    margin:-5px -8px -15px -15px;
+    
+}
+html{
+    margin-right: 10px;
+    margin-left:  10px;
+}
+
+html{
+    margin:-1% 0% -1% -1%;
+}
+.p , .t{
+    font-size:40px;
+    color:yellow
+}
+h1{
+    font-size:30px;
+    color:white;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    padding: 1%;
+    font-size:15px;
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:yellow;
+}
+
+.p:hover{
+    color:white
+}
+.t:hover{
+    color:white
+}
+    
+.v{
+    height: 99%;
+    width: 100.06%;
+    margin-left:7px;
+    margin-top:5px;
+    background-clip: content-box;   
+}

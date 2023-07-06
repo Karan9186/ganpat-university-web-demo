@@ -1,0 +1,38 @@
+fieldset{
+    margin-left:300px;
+    margin-right:300px;
+    background-color:white;
+    border-radius:15px;
+    border-color: yellow;
+    
+}
+body{
+    background-color:white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+*{
+    border-radius:7px;
+    border-color:red
+}
+FORM{
+    font-size:25PX;
+}
+input{
+    font-size: 20px;
+    
+}
+h1{
+    font-size:50px;
+}
+a:hover{
+    color:red;
+    transition: 0.7s;
+}
+input:hover{
+    color:red;
+    /* background-color: cyan;   */
+}
